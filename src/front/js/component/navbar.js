@@ -38,7 +38,8 @@ export const Navbar = () => {
           Login <FontAwesomeIcon icon={faUser} />
         </li></Link>
 		:
-		<li onClick={() => actions.logout()} classname="btn btn-primary">Log out</li>
+    <Link to="/">
+		<li classname="navbar-items" onClick={() => actions.logout()}>Log out <FontAwesomeIcon icon={faUser} /></li></Link>
 		}
       </ul>
     </nav>

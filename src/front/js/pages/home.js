@@ -23,7 +23,7 @@ export const Home = () => {
     <div className="main-content">
       <h1 className="content-h1"> Dream Interpretations </h1>
 	  <div className="alert alert-info">
-				{store.message || "Loading message from the backend (make sure your python backend is running)..."}
+				{store.message || "This is a message from the backend!"}
 			</div>
 			<p>
 			{" "}

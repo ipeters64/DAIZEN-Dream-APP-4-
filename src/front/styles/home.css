@@ -165,7 +165,7 @@ body {
     padding: 2rem;
   
     width: 30rem;
-    background: rgba(200, 255, 255, 0.253);
+    background: rgba(220, 255, 255, 0.253);
   
     color: black;
   }
@@ -183,7 +183,24 @@ body {
     border: none;
     border-radius: 15px;
   }
+  a:nth-child(5) {
+    color:#fff;
+    text-decoration:none;
+  }
+
+  a:nth-child(5):hover {
+    box-shadow: 0 2rem 6rem var(--color-primary);
+    transform: translateY(-4px);
   
+    cursor: pointer;
+    text-align: center;
+  
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 15px;
+  }
   .navbar-items:active {
     transform: translateY(0px);
   }
@@ -195,6 +212,8 @@ body {
     padding: 1.3rem;
     transition: all 0.4s;
   }
+
+
   
   .footer {
     margin: 0;

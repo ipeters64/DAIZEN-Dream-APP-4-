@@ -93,7 +93,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			places: [
 			  {
 				id: "myRoom",
-				dreamMeaning: "A my room presence",
+				dreamMeaning: "A my room presence, symbolizing a place where you feel",
 			  },
 			  {
 				id: "beach",
@@ -105,7 +105,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			  },
 			  {
 				id: "unsure",
-				dreamMeaning: "A unsure presence",
+				dreamMeaning: "An unsure presence",
 			  },
 			],
 			articles: [

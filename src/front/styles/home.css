@@ -5,3 +5,221 @@
     one more css for each page that will contain the selected used 
     on that page only (the ones not reused in other pages).
 */
+
+body {
+    color: rgb(36, 29, 29);
+  }
+  
+  .header-box {
+    display: flex;
+    justify-content: space-between;
+  
+    align-items: center;
+    padding: 0.4rem;
+  
+    background-size: cover;
+  }
+  .header-logo {
+    border-radius: 50%;
+    padding: 0.5rem;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 2rem 6rem var(--color-yellow);
+  }
+  .header-divs {
+    margin-top: 1rem;
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "main main"
+      "second tertiary";
+    gap: 0.5rem;
+  
+    transform: skew(-30deg);
+  
+    color: rgb(28, 18, 4);
+  }
+  
+  .header-divs h1 {
+    grid-area: main;
+    background: rgba(224, 255, 255, 0.772);
+    letter-spacing: 2rem;
+    font-size: 4rem;
+    padding: 0.3rem 10rem;
+  }
+  .header-divs h2 {
+    grid-area: second;
+    text-align: center;
+    color: black;
+    background: rgba(224, 255, 255, 0.758);
+  }
+  .header-divs h3 {
+    grid-area: tertiary;
+    text-align: center;
+    color: black;
+    background: rgba(224, 255, 255, 0.613);
+  }
+  .main-btn {
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    color: #fff;
+  
+    background-color: var(--color-primary);
+  
+    outline: none !important;
+    transition: all 0.3s;
+  }
+  .header-btn {
+    border-radius: 50%;
+    padding: 0.5rem;
+    height: 100px;
+    width: 100px;
+    transition: all 0.3s;
+  
+    font-size: 1.2rem;
+    color: #fff;
+  
+    background-color: var(--color-primary);
+  
+    outline: none !important;
+  }
+  
+  .header-btn:hover,
+  .main-btn:hover {
+    box-shadow: 0 2rem 6rem var(--color-yellow);
+    transform: translateY(-4px);
+  }
+  .header-btn:active {
+    transform: translateY(0);
+  }
+  
+  .navbar-box {
+    background-color: rgba(108, 74, 182, 0.694);
+    padding: 0.2rem;
+    color: #f4f4f4;
+  
+    font-size: 2rem;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .main-content {
+    text-align: center;
+    padding: 1rem 3rem;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .content-h1 {
+    color: #000000;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 4rem;
+    letter-spacing: 10px;
+    background: rgba(224, 255, 255, 0.793);
+  }
+  
+  .main-content form {
+    background: rgba(224, 255, 255, 0.253);
+    border: 1px solid var(--color-primary);
+    padding: 3rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .main-content form input {
+    text-align: center;
+    font-size: 1.3rem;
+    width: 30rem;
+    font-family: inherit;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2rem 6rem var(--color-primary);
+    background: rgba(255, 255, 255, 0.732);
+    outline: none !important;
+    padding: 0.7rem 0.2rem;
+    cursor:pointer;
+  }
+  
+  .main-content form label {
+    color: black;
+    font-size: 2rem;
+    padding: 0.3rem 3rem;
+  }
+  
+  .result {
+    border-radius: 10px;
+    padding: 2rem;
+  
+    width: 30rem;
+    background: rgba(200, 255, 255, 0.253);
+  
+    color: black;
+  }
+  
+  .navbar-items:hover {
+    box-shadow: 0 2rem 6rem var(--color-primary);
+    transform: translateY(-4px);
+  
+    cursor: pointer;
+    text-align: center;
+  
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .navbar-items:active {
+    transform: translateY(0px);
+  }
+  
+  .navbar-items {
+    color:#fff;
+    display: inline-block;
+    font-size: 24px;
+    padding: 1.3rem;
+    transition: all 0.4s;
+  }
+  
+  .footer {
+    margin: 0;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .follow {
+    font-size: 1.4rem;
+  }
+  
+  .follow a {
+    background: rgba(224, 255, 255, 0.253);
+    text-decoration: none;
+    margin-left: 0.5rem;
+    padding: 0.4rem;
+    color: #000000;
+  }
+  
+  .follow a:hover {
+    color: var(--color-primary);
+  
+    box-shadow: var(--box-shadow);
+  }
+  

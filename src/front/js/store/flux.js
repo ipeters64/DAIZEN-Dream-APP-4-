@@ -187,6 +187,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			},
 
 			login: async (email, password) => {
+				const baseUrl = process.env.BACKEND_URL
 				const opts = {
 					method: "POST",
 					headers: {
@@ -199,7 +200,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 				};
 				
 		try{
-			const resp = await fetch('https://3001-ipeters64-daizendreamap-hpez52wbmql.ws-us84.gitpod.io/api/token', opts)
+			const resp = await fetch(`${baseUrl}/api/token`, opts)
 			if(resp.status !== 200){
 				alert("There has been some error");
 				return false;
@@ -226,7 +227,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			}
 				try{
 					// fetching data from the backend
-					const resp = await fetch("https://3001-ipeters64-daizendreamap-hpez52wbmql.ws-us84.gitpod.io/api/hello" , opts)
+					const resp = await fetch(`${baseUrl}/api/hello` , opts)
 					const data = await resp.json()
 					setStore({ message: data.message })
 					// don't forget to return something, that is how the async resolves

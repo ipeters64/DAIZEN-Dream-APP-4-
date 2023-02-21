@@ -15,7 +15,7 @@ import { Navbar } from "./component/navbar";
 import { Header } from "./component/header";
 
 import { Footer } from "./component/footer";
-import backImg from "../img/DreamCatcher.png";
+import backImg from "../img/DreamCloudStairway.jpg";
 import { Login } from "./pages/login";
 import { User } from "./pages/user";
 

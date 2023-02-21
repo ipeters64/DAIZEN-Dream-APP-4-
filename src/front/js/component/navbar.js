@@ -39,7 +39,7 @@ export const Navbar = () => {
         </li></Link>
 		:
     <Link to="/">
-		<li classname="navbar-items" onClick={() => actions.logout()}>Log out <FontAwesomeIcon icon={faUser} /></li></Link>
+		<li className="navbar-items" onClick={() => actions.logout()}>Log out <FontAwesomeIcon icon={faUser} /></li></Link>
 		}
       </ul>
     </nav>

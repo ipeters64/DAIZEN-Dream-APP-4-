@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { Context } from "../store/appContext";
 import rigoImageUrl from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
+import { User } from "./user";
 
 export const Home = () => {
 	const { store, actions } = useContext(Context);
@@ -23,7 +24,7 @@ export const Home = () => {
     <div className="main-content">
       <h1 className="content-h1"> Dream Interpretations </h1>
 	  <div className="alert alert-info">
-				{store.message || "This is a message from the backend!"}
+				{store.message || "Interpret your dream below 👇"  }
 			</div>
 			<p>
 			{" "}

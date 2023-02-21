@@ -52,13 +52,13 @@ body {
     grid-area: second;
     text-align: center;
     color: black;
-    background: rgba(224, 255, 255, 0.758);
+    background: rgba(224, 255, 255, 0.772);
   }
   .header-divs h3 {
     grid-area: tertiary;
     text-align: center;
     color: black;
-    background: rgba(224, 255, 255, 0.613);
+    background: rgba(224, 255, 255, 0.772);
   }
   .main-btn {
     border-radius: 5px;
@@ -78,7 +78,7 @@ body {
     width: 100px;
     transition: all 0.3s;
   
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #fff;
   
     background-color: var(--color-primary);
@@ -183,24 +183,7 @@ body {
     border: none;
     border-radius: 15px;
   }
-  a:nth-child(5) {
-    color:#fff;
-    text-decoration:none;
-  }
-
-  a:nth-child(5):hover {
-    box-shadow: 0 2rem 6rem var(--color-primary);
-    transform: translateY(-4px);
   
-    cursor: pointer;
-    text-align: center;
-  
-    outline: none;
-    color: rgb(0, 0, 0);
-    background-color: #f4f4f4;
-    border: none;
-    border-radius: 15px;
-  }
   .navbar-items:active {
     transform: translateY(0px);
   }

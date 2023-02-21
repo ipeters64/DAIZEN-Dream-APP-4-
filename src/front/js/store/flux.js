@@ -75,15 +75,15 @@ const getState = ({ getStore, getActions, setStore }) => {
 			animals: [
 			  {
 				id: "cat",
-				dreamMeaning: "A cat's presence",
+				dreamMeaning: "Cats are very powerful dream yet common symbols that connect us to the dreamers feminine nature. A powerful omen relating to creativity, power, intuition and sexuality. The ancient Egyptians connected cats with the Gods. In modern times superstitions like crossing a black cat can also appear in our dreams like a metaphor for danger, though it can be the dreamers own shadow archetype. If you are being attacked by a cat might imply catty nature or an unconscious emotional attack that connects to the feminine part of the dreamer. Dreaming of a kitten suggests purity and innocence. A lions and tigers are powerful symbols of the unconscious feminine and masculine traits.",
 			  },
 			  {
 				id: "dog",
-				dreamMeaning: "A dog's presence",
+				dreamMeaning: "Dogs are known for their companionship, loyalty, protectors, guardians and providing unconditional love. For centuries they have played important roles in our society, folklore and mythology. However, when dogs enter our dream world the interpretation isn’t so transparent after all. Dogs contain hidden messages that embody aspects of your instincts, consciousness to unconscious searching, warnings and guides.",
 			  },
 			  {
 				id: "bird",
-				dreamMeaning: "A bird's presence",
+				dreamMeaning: "Generally, birds are a positive symbol that show us peace, freedom, harmony, balance, ideas, joy and love. Keep in mind the meaning of the dream can alter depending on the type, color, condition, number and your location of the dream. Dreaming of birds inspires us to expand our consciousness to reach new heights. These lovely messengers emerge in our dreams to encourage us to broaden our horizons, live more freely and release our fears. If you noticed them in flight it donates to breaking free from your responsibilities and closed minded thinking. Unlike noticing a bird in a cage is a metaphor for your thoughts, desires and restrictions are caged and need to spread its wings.",
 			  },
 			  {
 				id: "unsure",
@@ -93,15 +93,15 @@ const getState = ({ getStore, getActions, setStore }) => {
 			places: [
 			  {
 				id: "myRoom",
-				dreamMeaning: "A my room presence, symbolizing a place where you feel",
+				dreamMeaning: "Rooms are very symbolic in dreams that represents a part of the dreamer that remains open or closed off. They can be seen as a blueprint or layout of the psyche that encourages the dreamer to explore what is seen inside. To dream of unused rooms can be seen as a positive symbol referring to new possibilities that reside within the consciousness of the dreamer. Rooms that have no windows or doors bring you closer to the feminine or womb. The size of the room whether being small or large donates to opportunities that you may have.",
 			  },
 			  {
 				id: "beach",
-				dreamMeaning: "A beach presence",
+				dreamMeaning: "When we dream of a beach it could be connected to a positive emotions state of mind. Dreaming of relaxing on a beach house on one hand could suggest a need for vacation, but they are actually more symbolic than you think. The connection between the land and the water bridge the consciousness and emotional unconscious side of the dreamer. Waves are often depictions of emotional disturbances approaching. Sand showing the passing of the time, a symbol to explore the unknown before its too late.",
 			  },
 			  {
 				id: "forest",
-				dreamMeaning: "A forest presence",
+				dreamMeaning: "The forest is a place that is closely connected with the unconscious part of the dreamer. In this area it may be thrilling or dangerous depending on how well you know yourself. A symbolic place that helps the dreamer find more about who they are and what has been lost for so long. Known to be dark and mysterious for a reason.",
 			  },
 			  {
 				id: "unsure",

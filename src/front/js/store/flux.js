@@ -201,7 +201,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 				};
 				
 		try{
-			const resp = await fetch(`${baseUrl}/api/token`, opts)
+			const resp = await fetch(`${process.env.BACKEND_URL}/api/token`, opts)
 			if(resp.status !== 200){
 				alert("There has been some error");
 				return false;
@@ -228,7 +228,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			}
 				try{
 					// fetching data from the backend
-					const resp = await fetch(`https://3001-ipeters64-daizendreamap-56jcyyit3ef.ws-us87.gitpod.io/api/hello` , opts)
+					const resp = await fetch(`${process.env.BACKEND_URL}/api/hello` , opts)
 					const data = await resp.json()
 					setStore({ message: data.message })
 					// don't forget to return something, that is how the async resolves

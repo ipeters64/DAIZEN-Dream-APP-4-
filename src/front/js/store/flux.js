@@ -142,7 +142,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			// Use getActions to call a function within a fuction
 			exampleFunction: () => {
 				getActions().changeColor(0, "green");
-			},
+			}, //using the actions to call the dream meanings // 
 			getDreamMeaning: (dream, animal, action, place) => {
 				console.log(dream, animal, action, place);
 				let myDreamAction = "";

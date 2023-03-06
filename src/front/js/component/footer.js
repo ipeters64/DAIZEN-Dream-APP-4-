@@ -7,7 +7,7 @@ export const Footer = () => (
     <div className="follow">
       <FontAwesomeIcon icon={faUserFriends} />
       <span>Follow Us:</span>
-      <a href="https://www.linkedin.com" target="_blank">Danny St Juste</a>
+      <a href="https://www.linkedin.com/in/danny-st-juste-680424267/" target="_blank">Danny St Juste</a>
 
       <a href="https://www.linkedin.com/in/isaiah-peters-30597624a" target="_blank">
         Isaiah Peters

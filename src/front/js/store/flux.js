@@ -1,3 +1,6 @@
+// Defining the hooks and variables here//
+//This includes the dream definitions when the user submits certain inputs//
+
 const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {

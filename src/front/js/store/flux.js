@@ -220,7 +220,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 		}
 
 	},
-
+// Gathering the authorization Token //
 
 	getMessage: async () => {
 		const store = getStore();

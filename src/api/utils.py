@@ -2,7 +2,7 @@ from flask import jsonify, url_for
 
 class APIException(Exception):
     status_code = 400
-
+# Defining the backend page for all user info
     def __init__(self, message, status_code=None, payload=None):
         Exception.__init__(self)
         self.message = message
